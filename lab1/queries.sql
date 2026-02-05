@@ -1,1 +1,1 @@
--- Your queries here
+-- Your analytical queries here
