@@ -1,2 +1,6 @@
-# Database Labs
-Repository for all database lab exercises.
+# Database Systems Labs - Spring 2026
+**Student:** amnabibi
+**Program:** Data Science
+
+## Lab 01: Environment Setup
+Setting up PostgreSQL, DBeaver, and Git for database development.
