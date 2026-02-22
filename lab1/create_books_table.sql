@@ -1,5 +1,3 @@
-<<<<<<< HEAD
--- SQL to create books_read table
 CREATE TABLE books_read (
     book_id SERIAL PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
@@ -10,19 +8,6 @@ CREATE TABLE books_read (
     rating DECIMAL(3,1) CHECK (rating >= 0 AND rating <= 5.0),
     notes TEXT
 );
-
-=======
-CREATE TABLE books_read (
-book_id SERIAL PRIMARY KEY,
-title VARCHAR(200) NOT NULL,
-author VARCHAR(100) NOT NULL,
-category VARCHAR(50),
-pages INTEGER CHECK (pages > 0),
-date_finished DATE,
-rating DECIMAL(3,1) CHECK (rating >= 0 AND rating <= 5.0),
-notes TEXT
-);
->>>>>>> 74f9f73 (Lab 1: Created books_read table with sample data and queries)
 INSERT INTO books_read (title, author, category, pages, date_finished, rating, notes) VALUES
 ('Python for Data Analysis', 'Wes McKinney', 'Data Science', 544, '2024-08-15', 4.5, 'Great for pandas library'),
 ('Designing Data-Intensive Applications', 'Martin Kleppmann', 'Databases', 616, '2024-09-20', 5.0, 'Must-read for backend engineers'),
